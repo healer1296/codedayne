@@ -1,101 +1,138 @@
-import Image from "next/image";
+'use client';
+
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { Loading } from './loading';
+import { List } from './list';
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+  const list = List;
+  const searchParams = useSearchParams();
+  const [isLoading, setIsLoading] = useState(true);
+  const [code, setCode] = useState<any>(undefined);
+  const [displayCode, setDisplayCode] = useState(false);
+  const [loadingCode, setLoadingCode] = useState(false);
+  const [displayLink, setDisplayLink] = useState(false);
+  const [loadingLink, setLoadingLink] = useState(false);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+  useEffect(() => {
+    setIsLoading(true);
+
+    const code = list.find((item) => item.id === searchParams.get('id'));
+    setCode(code);
+
+    const timeoutId = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timeoutId);
+  }, []);
+
+  const showCode = () => {
+    setLoadingCode(true);
+
+    setTimeout(() => {
+      setLoadingCode(false);
+      setDisplayCode(true);
+    }, 2000);
+  };
+
+  const showLink = () => {
+    setLoadingLink(true);
+
+    setTimeout(() => {
+      setLoadingLink(false);
+      setDisplayLink(true);
+    }, 2000);
+  };
+
+  return (
+    <div className="flex justify-center items-center w-full h-screen">
+      <div className="flex flex-col justify-center gap-8 p-6 h-96 w-96 border border-black/60 rounded-md bg-white">
+        <h1 className="text-3xl font-semibold flex items-center justify-center gap-4">
+          Get Code Here{' '}
           <Image
             aria-hidden
-            src="/file.svg"
+            src="/arrow-down.svg"
             alt="File icon"
-            width={16}
-            height={16}
+            width={30}
+            height={30}
+            priority={false}
+            className="animate-bounce"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </h1>
+
+        {isLoading && (
+          <div className="w-full flex justify-center">
+            <Loading />
+          </div>
+        )}
+
+        {!isLoading && (
+          <div className="flex flex-col gap-6">
+            {displayCode && (
+              <div className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md flex justify-center items-center">
+                {!loadingCode && code.code}
+              </div>
+            )}
+
+            {!displayCode && (
+              <button
+                className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md text-center   "
+                onClick={showCode}
+              >
+                {loadingCode && (
+                  <div className="px-3 py-1 text-xs w-full h-12 font-medium leading-none text-center text-blue-800 bg-blue-200 rounded-md animate-pulse">
+                    <div className="w-ful h-full flex justify-center items-center">
+                      <Loading />
+                    </div>
+                  </div>
+                )}
+                {!loadingCode && 'Get Code'}
+              </button>
+            )}
+
+            {displayLink && (
+              <div className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md flex justify-center items-center">
+                {!loadingLink && code.link}
+              </div>
+            )}
+
+            {!displayLink && (
+              <button
+                className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md text-center   "
+                onClick={showLink}
+              >
+                {loadingLink && (
+                  <div className="px-3 py-1 text-xs w-full h-12 font-medium leading-none text-center text-blue-800 bg-blue-200 rounded-md animate-pulse">
+                    <div className="w-ful h-full flex justify-center items-center">
+                      <Loading />
+                    </div>
+                  </div>
+                )}
+                {!loadingLink && (
+                  <div className="flex justify-center items-center">
+                    Get Link{' '}
+                    <Image
+                      aria-hidden
+                      src="/ads.svg"
+                      alt="File icon"
+                      width={30}
+                      height={30}
+                      priority={false}
+                    />
+                  </div>
+                )}
+              </button>
+            )}
+
+            <button className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md">
+              See More
+            </button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
