@@ -24,7 +24,7 @@ export default function Home() {
 
     const timeoutId = setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 2000);
 
     return () => clearTimeout(timeoutId);
   }, []);
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="flex flex-col gap-6">
             {displayCode && (
               <div className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md flex justify-center items-center">
-                {!loadingCode && code.code}
+                {(!loadingCode && code?.code) || 'No code'}
               </div>
             )}
 
@@ -95,7 +95,7 @@ export default function Home() {
 
             {displayLink && (
               <div className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md flex justify-center items-center">
-                {!loadingLink && code.link}
+                {(!loadingLink && code?.link) || 'No link'}
               </div>
             )}
 
@@ -112,24 +112,18 @@ export default function Home() {
                   </div>
                 )}
                 {!loadingLink && (
-                  <div className="flex justify-center items-center">
-                    Get Link{' '}
-                    <Image
-                      aria-hidden
-                      src="/ads.svg"
-                      alt="File icon"
-                      width={30}
-                      height={30}
-                      priority={false}
-                    />
+                  <div className="flex justify-center items-center gap-4">
+                    Get Link
                   </div>
                 )}
               </button>
             )}
 
-            <button className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md">
-              See More
-            </button>
+            <a href="https://www.facebook.com/profile.php?id=61569861986626" target='blank'>
+              <button className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md">
+                See More
+              </button>
+            </a>
           </div>
         )}
       </div>
