@@ -1,14 +1,16 @@
 'use client';
 
+import React, { Suspense } from 'react';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Loading } from './loading';
 import { List } from './list';
 
-export default function Home() {
-  const list = List;
+function GetCode() {
   const searchParams = useSearchParams();
+
+  const list = List;
   const [isLoading, setIsLoading] = useState(true);
   const [code, setCode] = useState<any>(undefined);
   const [displayCode, setDisplayCode] = useState(false);
@@ -119,7 +121,10 @@ export default function Home() {
               </button>
             )}
 
-            <a href="https://www.facebook.com/profile.php?id=61569861986626" target='blank'>
+            <a
+              href="https://www.facebook.com/profile.php?id=61569861986626"
+              target="blank"
+            >
               <button className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md">
                 See More
               </button>
@@ -128,5 +133,13 @@ export default function Home() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense>
+      <GetCode></GetCode>
+    </Suspense>
   );
 }
