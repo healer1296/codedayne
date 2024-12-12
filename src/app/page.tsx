@@ -32,6 +32,8 @@ function GetCode() {
   }, []);
 
   const showCode = () => {
+    window.open('https://luglawhaulsano.net/4/8640111', 'blank');
+
     setLoadingCode(true);
 
     setTimeout(() => {
@@ -41,12 +43,22 @@ function GetCode() {
   };
 
   const showLink = () => {
+    if (displayLink) {
+      window.open(code?.link, 'blank');
+      return;
+    }
+
+    // window.open('https://luglawhaulsano.net/4/8640111', 'blank');
     setLoadingLink(true);
 
     setTimeout(() => {
       setLoadingLink(false);
       setDisplayLink(true);
     }, 2000);
+  };
+
+  const openLink = (link: string | undefined) => {
+    window.open(link, 'blank');
   };
 
   return (
@@ -96,7 +108,10 @@ function GetCode() {
             )}
 
             {displayLink && (
-              <div className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md flex justify-center items-center">
+              <div
+                className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-sm text-center rounded-md flex justify-center items-center cursor-pointer"
+                onClick={() => openLink(code.link)}
+              >
                 {(!loadingLink && code?.link) || 'No link'}
               </div>
             )}

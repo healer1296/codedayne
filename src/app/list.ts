@@ -1,8 +1,8 @@
 export const List = [
   {
     id: '3a77959d-4c36-4b92-904d-f5fe034462b7',
-    code: 'sss',
-    link: 'asdasd',
+    code: 'MIAA-995',
+    link: 'https://missav123.com/vi/miaa-995-english-subtitle',
   },
   {
     id: '1a106a40-c33d-4f90-82fc-23cd85423d9f',
