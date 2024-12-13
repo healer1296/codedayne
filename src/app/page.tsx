@@ -48,7 +48,7 @@ function GetCode() {
       return;
     }
 
-    // window.open('https://luglawhaulsano.net/4/8640111', 'blank');
+    window.open('https://luglawhaulsano.net/4/8640111', 'blank');
     setLoadingLink(true);
 
     setTimeout(() => {
