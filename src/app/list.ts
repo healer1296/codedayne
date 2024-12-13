@@ -11,8 +11,8 @@ export const List = [
   },
   {
     id: 'c5494a76-59ac-42de-85de-ab41757e6f0a',
-    code: '',
-    link: '',
+    code: 'SONE-479',
+    link: 'https://missav.com/vi/sone-479',
   },
   {
     id: 'cb3323d4-3b8e-4951-b634-5805ab892da0',
