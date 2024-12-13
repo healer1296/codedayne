@@ -6,8 +6,8 @@ export const List = [
   },
   {
     id: '1a106a40-c33d-4f90-82fc-23cd85423d9f',
-    code: '',
-    link: '',
+    code: 'MIAB-370',
+    link: 'https://missav.com/dm13/vi/miab-370',
   },
   {
     id: 'c5494a76-59ac-42de-85de-ab41757e6f0a',
