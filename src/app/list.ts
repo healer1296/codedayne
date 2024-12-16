@@ -21,8 +21,8 @@ export const List = [
   },
   {
     id: '632c3642-1f38-4eb9-83a0-bb37f4592f11',
-    code: '',
-    link: '',
+    code: 'MIDV-916',
+    link: 'https://missav123.com/dm13/vi/midv-916',
   },
   {
     id: 'ee618c7a-9345-4bcc-8cd8-5ee360584cec',
