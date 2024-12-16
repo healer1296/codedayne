@@ -16,8 +16,8 @@ export const List = [
   },
   {
     id: 'cb3323d4-3b8e-4951-b634-5805ab892da0',
-    code: '',
-    link: '',
+    code: 'SSIS-469',
+    link: 'https://missav123.com/dm59/vi/ssis-469',
   },
   {
     id: '632c3642-1f38-4eb9-83a0-bb37f4592f11',
