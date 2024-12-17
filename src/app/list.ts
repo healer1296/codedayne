@@ -26,8 +26,8 @@ export const List = [
   },
   {
     id: 'ee618c7a-9345-4bcc-8cd8-5ee360584cec',
-    code: '',
-    link: '',
+    code: 'DASS-187',
+    link: 'https://missav123.com/dm78/vi/dass-187',
   },
   {
     id: '5b67b3f3-cd03-477c-8ef6-b44b60d43c00',
