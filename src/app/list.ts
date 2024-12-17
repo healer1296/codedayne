@@ -31,8 +31,8 @@ export const List = [
   },
   {
     id: '5b67b3f3-cd03-477c-8ef6-b44b60d43c00',
-    code: '',
-    link: '',
+    code: 'SSIS-181',
+    link: 'https://missav123.com/dm45/vi/ssis-181',
   },
   {
     id: 'ac1aedc4-07cc-454d-9711-a8149a83dd5b',
