@@ -41,8 +41,8 @@ export const List = [
   },
   {
     id: 'a143fcc1-2fa9-4762-9aa0-80286f928320',
-    code: '',
-    link: '',
+    code: 'PFES-057',
+    link: 'https://missav123.com/dm36/vi/pfes-057',
   },
   {
     id: '47fdc69f-583d-420d-98d0-12b2089aaf1e',
