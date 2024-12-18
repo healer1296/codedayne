@@ -46,8 +46,8 @@ export const List = [
   },
   {
     id: '47fdc69f-583d-420d-98d0-12b2089aaf1e',
-    code: '',
-    link: '',
+    code: 'DASS-490',
+    link: 'https://missav123.com/dm2/vi/dass-490',
   },
   {
     id: '1da6cc1c-cf4a-4691-8842-b9e2aedfc3ad',
