@@ -36,8 +36,8 @@ export const List = [
   },
   {
     id: 'ac1aedc4-07cc-454d-9711-a8149a83dd5b',
-    code: '',
-    link: '',
+    code: 'ROYD-181',
+    link: 'https://missav123.com/dm27/vi/royd-181-chinese-subtitle',
   },
   {
     id: 'a143fcc1-2fa9-4762-9aa0-80286f928320',
