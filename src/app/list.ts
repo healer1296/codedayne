@@ -51,8 +51,8 @@ export const List = [
   },
   {
     id: '1da6cc1c-cf4a-4691-8842-b9e2aedfc3ad',
-    code: '',
-    link: '',
+    code: 'JUQ-520',
+    link: 'https://missav123.com/dm29/vi/juq-520',
   },
   {
     id: '5a785b0b-d931-4471-990a-f8fbbc64a0b3',
