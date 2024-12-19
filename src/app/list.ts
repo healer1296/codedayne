@@ -61,8 +61,8 @@ export const List = [
   },
   {
     id: '3cb3a751-dd15-453e-bd45-b745f7795f59',
-    code: '',
-    link: '',
+    code: 'ADN-622',
+    link: 'https://missav123.com/vi/adn-622',
   },
   {
     id: '7f66103c-878b-418a-9069-d927a0cd93dc',
