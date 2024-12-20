@@ -76,8 +76,8 @@ export const List = [
   },
   {
     id: '76968b41-ac77-4646-ae2b-e228cd687b52',
-    code: '',
-    link: '',
+    code: 'JUFE-569',
+    link: 'https://vlxx.pet/vlxx/jufe569--3-anh-da-den-may-man-va-co-chu-tro-dam-dang/389.html',
   },
   {
     id: '91e26727-bc39-4ab2-8191-6486e5522e2f',
