@@ -66,8 +66,8 @@ export const List = [
   },
   {
     id: '7f66103c-878b-418a-9069-d927a0cd93dc',
-    code: '',
-    link: '',
+    code: 'SONE-560',
+    link: 'https://missav123.com/vi/sone-560',
   },
   {
     id: '77a73fbc-77a7-4025-97eb-39c357cf7a03',
