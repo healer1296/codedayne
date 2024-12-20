@@ -71,8 +71,8 @@ export const List = [
   },
   {
     id: '77a73fbc-77a7-4025-97eb-39c357cf7a03',
-    code: '',
-    link: '',
+    code: 'PRED-721',
+    link: 'https://missav123.com/dm1/vi/pred-721',
   },
   {
     id: '76968b41-ac77-4646-ae2b-e228cd687b52',
