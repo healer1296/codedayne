@@ -62,8 +62,12 @@ function GetCode() {
   };
 
   return (
-    <div className="flex justify-center items-center w-full h-screen">
-      <div className="flex flex-col justify-center gap-8 p-6 h-96 w-96 border border-black/60 rounded-md bg-white">
+    <div className="flex flex-col justify-center items-center w-full h-screen">
+      <div className="flex flex-col justify-center gap-8 p-6 h-auto w-96 border border-black/60 rounded-md bg-white">
+        <h2 className="border-2 border-red-600 p-6 text-red-600 font-bold rounded-md">
+          We need funding to maintain the website, so there will be some
+          advertisements. We kindly ask for your understanding and support.
+        </h2>
         <h1 className="text-3xl font-semibold flex items-center justify-center gap-4">
           Get Code Here{' '}
           <Image
