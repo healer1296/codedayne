@@ -106,8 +106,8 @@ export const List = [
   },
   {
     id: '6dddecb7-d49c-4a9d-b559-47a6d2f8a2d3',
-    code: '',
-    link: '',
+    code: 'JUL-787',
+    link: 'https://missav123.com/vi/jul-787-uncensored-leak',
   },
   {
     id: '24edad88-181d-4e45-9eda-10fe6a26e7c7',
