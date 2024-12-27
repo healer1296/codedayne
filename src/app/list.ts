@@ -111,13 +111,13 @@ export const List = [
   },
   {
     id: '24edad88-181d-4e45-9eda-10fe6a26e7c7',
-    code: '',
-    link: '',
+    code: 'DASS-534',
+    link: 'https://missav123.com/vi/dass-534-uncensored-leak',
   },
   {
     id: '79f499cb-f170-4d10-985e-504d3b6293c1',
-    code: '',
-    link: '',
+    code: 'JUR-012 ',
+    link: 'https://missav123.com/dm26/vi/jur-012',
   },
   {
     id: '62b44ced-d5c6-4d02-99b7-77c8928621f8',
