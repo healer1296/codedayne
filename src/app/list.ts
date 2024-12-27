@@ -121,8 +121,8 @@ export const List = [
   },
   {
     id: '62b44ced-d5c6-4d02-99b7-77c8928621f8',
-    code: '',
-    link: '',
+    code: 'JUR-134 ',
+    link: 'https://missav123.com/dm26/vi/jur-134',
   },
   {
     id: 'a2b609a6-9fd3-4c52-a218-045e74ee3dee',
