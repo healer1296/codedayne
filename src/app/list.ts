@@ -126,8 +126,8 @@ export const List = [
   },
   {
     id: 'a2b609a6-9fd3-4c52-a218-045e74ee3dee',
-    code: '',
-    link: '',
+    code: 'CUS-2445',
+    link: 'https://missav123.com/vi/cus-2445',
   },
   {
     id: 'd7435061-6713-4a12-b1a7-1668af9a5479',
