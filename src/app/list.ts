@@ -131,8 +131,8 @@ export const List = [
   },
   {
     id: 'd7435061-6713-4a12-b1a7-1668af9a5479',
-    code: '',
-    link: '',
+    code: 'DAL-002',
+    link: 'https://missav123.com/vi/dal-002-uncensored-leak',
   },
   {
     id: 'da946d46-bec0-4201-8450-0bca3dd0d091',
