@@ -146,8 +146,8 @@ export const List = [
   },
   {
     id: 'a3b4cb90-e0cc-4d62-871d-ef9c22aa8cc5',
-    code: '',
-    link: '',
+    code: 'JUQ-893',
+    link: 'https://missav.ws/dm26/en/juq-893-uncensored-leak',
   },
   {
     id: '97bfb1a7-616d-4171-9b1b-761f2bc9b398',
