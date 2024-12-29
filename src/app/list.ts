@@ -141,8 +141,8 @@ export const List = [
   },
   {
     id: '4d6cafc3-4dbc-4045-aea3-35c759813e0e',
-    code: '',
-    link: '',
+    code: 'JUQ-982',
+    link: 'https://missav.ws/dm27/en/juq-982',
   },
   {
     id: 'a3b4cb90-e0cc-4d62-871d-ef9c22aa8cc5',
