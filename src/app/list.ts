@@ -166,8 +166,8 @@ export const List = [
   },
   {
     id: 'fccd57d6-a92e-48cf-b258-0679fbe57e31',
-    code: '',
-    link: '',
+    code: 'OFJE-459',
+    link: 'https://missav123.com/dm38/vi/ofje-459',
   },
   {
     id: '8daa53e8-3688-439e-b105-10365c468649',
