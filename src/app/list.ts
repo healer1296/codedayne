@@ -176,8 +176,8 @@ export const List = [
   },
   {
     id: 'b33d09b4-e395-4946-b950-4b906bff4eda',
-    code: '',
-    link: '',
+    code: 'FSDSS-675',
+    link: 'https://missav123.com/en/fsdss-675',
   },
   {
     id: '5e8d3a5c-7049-4b51-80c9-127c032b469a',
