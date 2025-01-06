@@ -191,8 +191,8 @@ export const List = [
   },
   {
     id: '00c316f5-35df-4130-982d-8f4feae0f99a',
-    code: '',
-    link: '',
+    code: 'NIMA-045',
+    link: 'https://missav.ws/vi/nima-045-uncensored-leak',
   },
   {
     id: '92cf0dab-448f-4f8d-8ec7-a76ec098e76f',
