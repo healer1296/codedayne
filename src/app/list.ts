@@ -216,8 +216,8 @@ export const List = [
   },
   {
     id: '7c58d66f-5319-4c76-a934-259427459a93',
-    code: '',
-    link: '',
+    code: 'FPRE-108',
+    link: 'https://missav123.com/dm38/en/fpre-108',
   },
   {
     id: 'dc232a65-6a09-4649-987a-3410fc4ed24b',
