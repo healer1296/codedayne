@@ -211,8 +211,8 @@ export const List = [
   },
   {
     id: 'f2700b09-0e5d-4ab9-a8e4-e8f7ae9cdf7e',
-    code: '',
-    link: '',
+    code: 'DLDSS-389',
+    link: 'https://missav123.com/vi/dldss-389',
   },
   {
     id: '7c58d66f-5319-4c76-a934-259427459a93',
