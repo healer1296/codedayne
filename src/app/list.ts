@@ -201,8 +201,8 @@ export const List = [
   },
   {
     id: '3ac55441-4601-4de9-a2a2-c95f90c4f330',
-    code: '',
-    link: '',
+    code: 'JUQ-931',
+    link: 'https://missav.ws/dm32/vi/juq-931',
   },
   {
     id: '3ba7e260-56f3-4e6e-ad57-ac81213ef9e9',
