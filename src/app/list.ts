@@ -221,8 +221,8 @@ export const List = [
   },
   {
     id: 'dc232a65-6a09-4649-987a-3410fc4ed24b',
-    code: '',
-    link: '',
+    code: 'NPJS-123',
+    link: 'https://missav123.com/dm2/vi/npjs-123',
   },
   {
     id: '59856540-0252-49aa-80cf-ce2e5e87e73d',
