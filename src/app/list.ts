@@ -214,11 +214,11 @@ export const List = [
     code: 'NPJS-088',
     link: 'https://missav123.com/dm3/en/npjs-088-uncensored-leak',
   },
-  // {
-  //   id: 'dfae50ff-3bca-4669-b67a-bed862ec87d6',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: 'dfae50ff-3bca-4669-b67a-bed862ec87d6',
+    code: 'JUQ-943',
+    link: 'https://missav123.com/dm15/vi/juq-943-uncensored-leak',
+  },
   // {
   //   id: '5d9eb960-593e-44c3-8169-f5179c52484b',
   //   code: '',
