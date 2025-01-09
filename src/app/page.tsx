@@ -1,7 +1,6 @@
 'use client';
 
 import React, { Suspense } from 'react';
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { Loading } from './loading';
@@ -10,7 +9,7 @@ import { List } from './list';
 function GetCode() {
   const searchParams = useSearchParams();
 
-  const list = List;
+  const list = List.reverse();
   const [isLoading, setIsLoading] = useState(true);
   const [code, setCode] = useState<any>(undefined);
   const [displayCode, setDisplayCode] = useState(false);
@@ -58,27 +57,18 @@ function GetCode() {
   };
 
   const openLink = (link: string | undefined) => {
-    window.open(link, 'blank');
+    window.open(link, '_blank');
   };
 
   return (
-    <div className="flex flex-col justify-center items-center w-full h-screen">
-      <div className="flex flex-col justify-center gap-8 p-6 h-auto w-96 border border-black/60 rounded-md bg-white">
+    <div className="flex flex-col justify-center items-center w-full h-full max-w-screen-lg m-auto">
+      <div className="flex flex-col justify-center gap-8 p-6 h-auto">
         <h2 className="border-2 border-red-600 p-6 text-red-600 font-bold rounded-md">
           We need funding to maintain the website, so there will be some
           advertisements. We kindly ask for your understanding and support.
         </h2>
-        <h1 className="text-3xl font-semibold flex items-center justify-center gap-4">
-          Get Code Here{' '}
-          <Image
-            aria-hidden
-            src="/arrow-down.svg"
-            alt="File icon"
-            width={30}
-            height={30}
-            priority={false}
-            className="animate-bounce"
-          />
+        <h1 className="text-2xl font-semibold flex items-center justify-center gap-4 text-white">
+          Get Code Here
         </h1>
 
         {isLoading && (
@@ -140,16 +130,25 @@ function GetCode() {
               </button>
             )}
 
-            <a
-              href="https://www.facebook.com/profile.php?id=61569861986626"
-              target="blank"
-            >
+            <a href="https://x.com/TrungKinDng2" target="blank">
               <button className="w-full h-12 bg-[#5b93eb] text-white font-semibold text-lg rounded-md">
                 See More
               </button>
             </a>
           </div>
         )}
+      </div>
+
+      <div className="w-full border-t border-white/50 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 py-4 px-4">
+        {list.map((item) => (
+          <button
+            className="bg-white py-4 font-bold"
+            key={item.id}
+            onClick={() => window.open(item.link, 'blank')}
+          >
+            <span>{item.code}</span>
+          </button>
+        ))}
       </div>
     </div>
   );
