@@ -226,8 +226,8 @@ export const List = [
   },
   {
     id: '59856540-0252-49aa-80cf-ce2e5e87e73d',
-    code: '',
-    link: '',
+    code: 'SSIS-950',
+    link: 'https://missav.ws/dm46/vi/ssis-950-uncensored-leak',
   },
   {
     id: '1dfc1547-41fe-4f2e-84b7-ef7454e596a2',
