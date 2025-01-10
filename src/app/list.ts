@@ -229,11 +229,11 @@ export const List = [
     code: 'KBI-111',
     link: 'https://missav123.com/dm13/vi/kbi-111',
   },
-  // {
-  //   id: 'acdadaa1-05f6-4425-83d4-f5b9a6816e5f',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: 'acdadaa1-05f6-4425-83d4-f5b9a6816e5f',
+    code: 'DLDSS-256',
+    link: 'https://missav123.com/en/dldss-256-english-subtitle',
+  },
   // {
   //   id: '6a827dfe-a105-4359-8a72-64f13df98e65',
   //   code: '',
