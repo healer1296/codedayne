@@ -234,11 +234,11 @@ export const List = [
     code: 'DLDSS-256',
     link: 'https://missav123.com/en/dldss-256-english-subtitle',
   },
-  // {
-  //   id: '6a827dfe-a105-4359-8a72-64f13df98e65',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '6a827dfe-a105-4359-8a72-64f13df98e65',
+    code: 'SONE-518',
+    link: 'https://missav123.com/dm26/vi/sone-518-uncensored-leak',
+  },
   // {
   //   id: '50e0d1d4-31bd-45c7-8941-c5cc818b6349',
   //   code: '',
