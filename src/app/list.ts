@@ -224,11 +224,11 @@ export const List = [
     code: 'PRED-717',
     link: 'https://missav123.com/dm18/en/pred-717-chinese-subtitle',
   },
-  // {
-  //   id: '25da05d8-d4fd-442e-9e54-46b0bf462665',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '25da05d8-d4fd-442e-9e54-46b0bf462665',
+    code: 'KBI-111',
+    link: 'https://missav123.com/dm13/vi/kbi-111',
+  },
   // {
   //   id: 'acdadaa1-05f6-4425-83d4-f5b9a6816e5f',
   //   code: '',
