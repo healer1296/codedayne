@@ -249,11 +249,11 @@ export const List = [
     code: 'SSIS-698',
     link: 'https://missav123.com/dm113/vi/ssis-698',
   },
-  // {
-  //   id: '2186a69c-187c-47c4-b001-e82ac2821c62',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '2186a69c-187c-47c4-b001-e82ac2821c62',
+    code: 'BBAN-248',
+    link: 'https://missav123.com/vi/bban-248-uncensored-leak',
+  },
   // {
   //   id: '7de046a1-d3e3-455b-9f04-20334f4c32ad',
   //   code: '',
