@@ -31,7 +31,7 @@ function GetCode() {
   }, []);
 
   const showCode = () => {
-    window.open('https://poawooptugroo.com/4/8640111', 'blank');
+    // window.open('https://poawooptugroo.com/4/8640111', 'blank');
 
     setLoadingCode(true);
 
@@ -47,7 +47,7 @@ function GetCode() {
       return;
     }
 
-    window.open('https://poawooptugroo.com/4/8640111', 'blank');
+    // window.open('https://poawooptugroo.com/4/8640111', 'blank');
     setLoadingLink(true);
 
     setTimeout(() => {
