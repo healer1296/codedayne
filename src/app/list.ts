@@ -299,11 +299,11 @@ export const List = [
     code: 'JUFE-365',
     link: 'https://missav123.com/dm27/vi/jufe-365-uncensored-leak',
   },
-  // {
-  //   id: '6ad0749c-8c6d-4df9-933e-7b16a0bf9589',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '6ad0749c-8c6d-4df9-933e-7b16a0bf9589',
+    code: 'WANZ-397',
+    link: 'https://missav123.com/dm52/vi/wanz-397-uncensored-leak',
+  },
   // {
   //   id: '6d2a7342-35ab-4c12-9cfa-4bdbfaaadbf3',
   //   code: '',
