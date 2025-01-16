@@ -319,11 +319,11 @@ export const List = [
     code: 'SSIS-974',
     link: 'https://missav123.com/dm30/vi/ssis-974',
   },
-  // {
-  //   id: 'd591c3b3-4719-4356-9613-cd54b810c4d6',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: 'd591c3b3-4719-4356-9613-cd54b810c4d6',
+    code: 'SSIS-493',
+    link: 'https://missav123.com/dm34/vi/ssis-493',
+  },
   // {
   //   id: '7e4de934-3170-410c-baba-8c287135a162',
   //   code: '',
