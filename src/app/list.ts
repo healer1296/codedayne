@@ -394,11 +394,11 @@ export const List = [
     code: 'JUR-016',
     link: 'https://missav123.com/vi/jur-016',
   },
-  // {
-  //   id: '1025f77d-2f20-4325-b93b-7b01d95735e8',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '1025f77d-2f20-4325-b93b-7b01d95735e8',
+    code: 'SONE-524',
+    link: 'https://missav123.com/vi/sone-524',
+  },
   // {
   //   id: '22efca34-4a68-403e-8c1c-e1d80897e9fa',
   //   code: '',
