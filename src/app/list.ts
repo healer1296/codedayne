@@ -469,11 +469,11 @@ export const List = [
     code: 'MEYD-332',
     link: 'https://missav123.com/dm1/vi/meyd-332-uncensored-leak',
   },
-  // {
-  //   id: '21fa8f8e-bbd1-4f23-8f1c-d2e8a231a838',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '21fa8f8e-bbd1-4f23-8f1c-d2e8a231a838',
+    code: 'JUR-186',
+    link: 'https://missav123.com/vi/jur-186',
+  },
   // {
   //   id: '15b0f85d-04a6-478a-9e82-1d7918d98927',
   //   code: '',
