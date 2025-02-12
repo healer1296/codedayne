@@ -31,7 +31,7 @@ function GetCode() {
   }, []);
 
   const showCode = () => {
-    window.open('https://poawooptugroo.com/4/8640111', 'blank', "width=500,height=500");
+    window.open('https://mostourigoatik.com/4/8640111', 'blank', "width=500,height=500");
 
     setLoadingCode(true);
 
@@ -47,7 +47,7 @@ function GetCode() {
       return;
     }
 
-    window.open('https://poawooptugroo.com/4/8640111', 'blank', "width=500,height=500");
+    window.open('https://mostourigoatik.com/4/8640111', 'blank', "width=500,height=500");
     setLoadingLink(true);
 
     setTimeout(() => {
