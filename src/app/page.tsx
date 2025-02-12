@@ -9,7 +9,7 @@ import { List } from './list';
 function GetCode() {
   const searchParams = useSearchParams();
 
-  const list: any = List.filter((item: any) => item.id !== searchParams.get('id')).reverse();
+  const list: any = List.reverse();
   const [isLoading, setIsLoading] = useState(true);
   const [code, setCode] = useState<any>(undefined);
   const [displayCode, setDisplayCode] = useState(false);
@@ -31,7 +31,7 @@ function GetCode() {
   }, []);
 
   const showCode = () => {
-    window.open('https://mostourigoatik.com/4/8640111', 'blank', "width=500,height=500");
+    window.open('https://mostourigoatik.com/4/8640111', 'blank');
 
     setLoadingCode(true);
 
@@ -47,7 +47,7 @@ function GetCode() {
       return;
     }
 
-    window.open('https://mostourigoatik.com/4/8640111', 'blank', "width=500,height=500");
+    window.open('https://mostourigoatik.com/4/8640111', 'blank');
     setLoadingLink(true);
 
     setTimeout(() => {
