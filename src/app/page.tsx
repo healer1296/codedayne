@@ -9,7 +9,7 @@ import { List } from './list';
 function GetCode() {
   const searchParams = useSearchParams();
 
-  const list = List.reverse();
+  const list: any = List.filter((item: any) => item.id !== searchParams.get('id')).reverse();
   const [isLoading, setIsLoading] = useState(true);
   const [code, setCode] = useState<any>(undefined);
   const [displayCode, setDisplayCode] = useState(false);
@@ -20,7 +20,7 @@ function GetCode() {
   useEffect(() => {
     setIsLoading(true);
 
-    const code = list.find((item) => item.id === searchParams.get('id'));
+    const code = list.find((item: any) => item.id === searchParams.get('id'));
     setCode(code);
 
     const timeoutId = setTimeout(() => {
@@ -31,7 +31,7 @@ function GetCode() {
   }, []);
 
   const showCode = () => {
-    // window.open('https://poawooptugroo.com/4/8640111', 'blank');
+    window.open('https://poawooptugroo.com/4/8640111', 'blank', "width=500,height=500");
 
     setLoadingCode(true);
 
@@ -47,7 +47,7 @@ function GetCode() {
       return;
     }
 
-    // window.open('https://poawooptugroo.com/4/8640111', 'blank');
+    window.open('https://poawooptugroo.com/4/8640111', 'blank', "width=500,height=500");
     setLoadingLink(true);
 
     setTimeout(() => {
@@ -132,7 +132,7 @@ function GetCode() {
                   </button>
                 )}
 
-                <a href="https://x.com/xuangiang497759" target="blank">
+                <a href="https://x.com/TrungKinDng2" target="blank">
                   <button className="w-full h-12 border-white border text-white font-semibold text-lg rounded-md">
                     See More
                   </button>
@@ -141,7 +141,7 @@ function GetCode() {
             )}
           </div>
           <div className="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 py-4 px-4">
-            {list.map((item) => (
+            {list.map((item: any) => (
               <button
                 className="bg-white py-4 font-bold rounded-md text-sm text-black"
                 key={item.id}
