@@ -544,11 +544,11 @@ export const List = [
     code: 'MKMP-570',
     link: 'https://missav.ws/vi/mkmp-570-uncensored-leak',
   },
-  // {
-  //   id: '605781fb-de03-4ffe-aea9-84a38dd45c83',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '605781fb-de03-4ffe-aea9-84a38dd45c83',
+    code: 'JUR-019',
+    link: 'https://missav.ws/vi/jur-019',
+  },
   // {
   //   id: '7851a88d-3705-49a5-b98e-be6f9d898efe',
   //   code: '',
