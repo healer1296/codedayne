@@ -549,11 +549,11 @@ export const List = [
     code: 'JUR-019',
     link: 'https://missav.ws/vi/jur-019',
   },
-  // {
-  //   id: '7851a88d-3705-49a5-b98e-be6f9d898efe',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '7851a88d-3705-49a5-b98e-be6f9d898efe',
+    code: 'SONE-579',
+    link: 'https://missav.ws/vi/sone-579',
+  },
   // {
   //   id: '2d344fa7-f661-4fd8-927d-b705969e5055',
   //   code: '',
