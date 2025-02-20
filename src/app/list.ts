@@ -589,11 +589,11 @@ export const List = [
     code: 'PRED-734',
     link: 'https://missav.ws/vi/pred-734',
   },
-  // {
-  //   id: 'ff7e79f8-5371-489d-b088-8890c3359bf9',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: 'ff7e79f8-5371-489d-b088-8890c3359bf9',
+    code: 'JUFE-096',
+    link: 'https://missav.ws/dm15/en/jufe-096-uncensored-leak',
+  },
   // {
   //   id: '97f1b5bd-3811-4024-9b9f-29176a5fb197',
   //   code: '',
