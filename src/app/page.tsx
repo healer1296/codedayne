@@ -112,7 +112,7 @@ function GetCode() {
                   </div>
                 )}
 
-                {!displayLink && (
+                {/* {!displayLink && (
                   <button
                     className="w-full h-12 border-white border text-white font-semibold text-lg rounded-md text-center   "
                     onClick={showLink}
@@ -130,7 +130,7 @@ function GetCode() {
                       </div>
                     )}
                   </button>
-                )}
+                )} */}
 
                 <a href="https://x.com/TrungKinDng2" target="blank">
                   <button className="w-full h-12 border-white border text-white font-semibold text-lg rounded-md">
