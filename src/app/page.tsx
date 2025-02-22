@@ -63,12 +63,12 @@ function GetCode() {
   return (
     <div className="flex flex-col justify-center items-center w-full h-full max-w-screen-lg m-auto">
       <div className="flex flex-col justify-center gap-8 p-6 h-auto">
-        <h2 className="border-2 border-red-600 p-6 text-red-600 font-bold rounded-md">
+        {/* <h2 className="border-2 border-red-600 p-6 text-red-600 font-bold rounded-md">
           We need funding to maintain the website, so there will be some
           advertisements. We kindly ask for your understanding and support.
-        </h2>
+        </h2> */}
         <div className="flex flex-col md:flex-row justify-center gap-4">
-          <div className='md:w-1/3'>
+          <div>
             <h1 className="mb-4 text-2xl font-semibold flex items-center justify-center gap-4 text-white">
               Get Code Here
             </h1>
@@ -140,7 +140,7 @@ function GetCode() {
               </div>
             )}
           </div>
-          <div className="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 py-4 px-4">
+          {/* <div className="w-full grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 py-4 px-4">
             {list.map((item: any) => (
               <button
                 className="bg-white py-4 font-bold rounded-md text-sm text-black"
@@ -150,7 +150,7 @@ function GetCode() {
                 <span>{item.code}</span>
               </button>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
