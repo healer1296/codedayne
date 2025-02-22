@@ -25,7 +25,7 @@ function GetCode() {
 
     const timeoutId = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 3000);
 
     return () => clearTimeout(timeoutId);
   }, []);
