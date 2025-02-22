@@ -624,11 +624,11 @@ export const List = [
     code: 'XVSR-792',
     link: 'https://missav.ws/en/xvsr-792-uncensored-leak',
   },
-  // {
-  //   id: '6f6ec2e7-32d2-45ad-8b89-9ee65d2ad1f8',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '6f6ec2e7-32d2-45ad-8b89-9ee65d2ad1f8',
+    code: 'JUQ-587',
+    link: 'https://missav.ws/dm25/vi/juq-587-uncensored-leak',
+  },
   // {
   //   id: '1941acb9-528e-46d7-ba30-633ce0825cf7',
   //   code: '',
