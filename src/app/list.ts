@@ -639,11 +639,11 @@ export const List = [
     code: 'EBOD-816',
     link: 'https://missav.ws/dm42/vi/ebod-816-uncensored-leak',
   },
-  // {
-  //   id: '78948b0a-82f5-44b8-b368-12ab3ae150c5',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '78948b0a-82f5-44b8-b368-12ab3ae150c5',
+    code: 'JUR-131',
+    link: 'https://missav.ws/vi/jur-131-uncensored-leak',
+  },
   // {
   //   id: '5c7c44e1-f242-4435-a5aa-996c5b763428',
   //   code: '',
