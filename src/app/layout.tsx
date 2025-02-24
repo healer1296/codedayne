@@ -37,6 +37,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script
+          async
+          data-cfasync="false"
+          src="//pl25936957.effectiveratecpm.com/acb7b9a1779df79da3a1257e84925cb7/invoke.js"
+        ></script>
+        <div id="container-acb7b9a1779df79da3a1257e84925cb7"></div>
         {children}
       </body>
     </html>
