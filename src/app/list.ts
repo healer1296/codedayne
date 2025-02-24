@@ -654,16 +654,16 @@ export const List = [
     code: 'MEYD-878',
     link: 'http://missav.ws/dm25/vi/meyd-878-uncensored-leak',
   },
-  // {
-  //   id: 'bbef35c4-5600-4479-8c1d-79220f224707',
-  //   code: '',
-  //   link: '',
-  // },
-  // {
-  //   id: 'd0290d96-d2aa-4c9c-a843-ce2f6bef3b32',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: 'bbef35c4-5600-4479-8c1d-79220f224707',
+    code: 'MIDA-042',
+    link: 'https://missav.ws/vi/mida-042-uncensored-leak',
+  },
+  {
+    id: 'd0290d96-d2aa-4c9c-a843-ce2f6bef3b32',
+    code: 'SSIS-886',
+    link: 'https://missav.ws/dm27/vi/ssis-886-uncensored-leak',
+  },
   // {
   //   id: '587ce57a-01a4-4810-8ca5-93587508c453',
   //   code: '',
