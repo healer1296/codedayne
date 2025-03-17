@@ -699,11 +699,11 @@ export const List = [
     code: 'DLDSS-393',
     link: 'https://missav.ws/vi/dldss-393',
   },
-  // {
-  //   id: '6592dba6-0396-4225-83ed-a04152ca759d',
-  //   code: '',
-  //   link: '',
-  // },
+  {
+    id: '6592dba6-0396-4225-83ed-a04152ca759d',
+    code: 'HMN-678',
+    link: 'https://missav.ws/vi/hmn-678',
+  },
   // {
   //   id: '6690c397-9e2a-40af-bec4-a5c3e0f58a82',
   //   code: '',
