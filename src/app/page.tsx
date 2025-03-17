@@ -35,7 +35,7 @@ function GetCode() {
   }, []);
 
   const showCode = () => {
-    window.open('https://nanoushaks.net/4/8640111', 'blank');
+    window.open('https://goathaga.top/4/8640111', 'blank');
 
     setLoadingCode(true);
 
