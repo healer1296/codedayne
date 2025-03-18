@@ -35,8 +35,6 @@ function GetCode() {
   }, []);
 
   const showCode = () => {
-    window.open('https://goathaga.top/4/8640111', 'blank');
-
     setLoadingCode(true);
 
     setTimeout(() => {

